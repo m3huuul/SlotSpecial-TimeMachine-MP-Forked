@@ -15,14 +15,14 @@
       ]
     },
     {
-      "source": "/(.*).wasm.br",
+      "source": "/Build/(.*).wasm.br",
       "headers": [
         { "key": "Content-Encoding", "value": "br" },
         { "key": "Content-Type", "value": "application/wasm" }
       ]
     },
     {
-      "source": "/(.*).data.br",
+      "source": "/Build/(.*).data.br",
       "headers": [
         { "key": "Content-Encoding", "value": "br" },
         { "key": "Content-Type", "value": "application/octet-stream" }
